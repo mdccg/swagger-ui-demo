@@ -1,0 +1,28 @@
+paths:
+  /tasks:
+    post:
+      summary: Salva uma nova tarefa
+      tags: [tasks]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#components/schemas/Task"
+      responses:
+        201:
+          description: Tarefa cadastrada com sucesso
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  task:
+                    $ref: "#components/schemas/TaskCreatedResponse"
+        400:
+          description: O objeto de tarefa recebido é inválido
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: "#components/schemas/TaskCreationFailResponse"

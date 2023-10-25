@@ -18,7 +18,7 @@ Além de sua eficácia inerente, nossa API de lista de tarefas é acompanhada de
 
 Este foi o terceiro repositório de código apresentado no [Curso Superior de TSI do IFMS](https://www.ifms.edu.br/campi/campus-aquidauana/cursos/graduacao/sistemas-para-internet/sistemas-para-internet) como requisito para obtenção da nota parcial das atividades da unidade curricular Web Services.
 
-| [&larr; Repositório anterior](https://github.com/mdccg/blog-api) | [Próximo repositório &rarr;](#) |
+| [&larr; Repositório anterior](https://github.com/mdccg/blog-api) | [Próximo repositório &rarr;](https://github.com/mdccg/dynamic-store-api) |
 |-|-|
 
 ## Pilha de tecnologia
